@@ -19,6 +19,7 @@ import java.util.List;
 @RequestMapping("accounts")
 @RequiredArgsConstructor
 public class AccountController {
+
     private final AccountService accountService;
     private final AccountCreateValidation accountCreateValidation;
 
